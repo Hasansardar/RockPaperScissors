@@ -114,10 +114,13 @@ function playRound(humanChoice, computerChoice) { // function has two parameters
   playRound(getHumanChoice(),getComputerChoice());
    
     }
-    if (humanScore > computerScore)
+    if (humanScore === computerScore)
     {
-        console.log("human wins by",humanScore,computerScore);
+        console.log("Score Tied!!!",humanScore,computerScore);
     }
-    else 
+    else if (humanScore < computerScore)
     console.log("computer wins by",humanScore,computerScore);
+else 
+console.log("human wins",humanScore,computerScore);
+
 }
