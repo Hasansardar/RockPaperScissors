@@ -1,0 +1,80 @@
+body{
+    background-image: url(images/abstract-pixel-rain-background/3194173.jpg);
+}
+
+
+#container{
+    gap: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    
+    
+    
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#rock {
+
+margin: 10px;
+background-color: aqua;
+color: black;
+cursor: pointer;
+padding: 10px;
+border-style: none;
+
+
+}
+
+#papers {
+
+    margin: 10px;
+    background-color: #9E6A55;
+    color:white;
+    cursor: pointer;
+    padding: 10px;
+    border-style: none;
+
+
+    }
+
+    #scissors {
+
+        margin: 10px;
+        background-color: skyblue;
+        cursor: pointer;
+        padding: 10px;
+        border-style: none;
+
+
+        }
+
+        #who-wins{
+            background-color: blueviolet;
+
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #score{
+
+            background-color: yellow;
+            color: darkgreen;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #game-winner{
+            background-color: brown;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+        }
